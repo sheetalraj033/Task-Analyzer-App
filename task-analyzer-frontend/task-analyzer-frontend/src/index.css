@@ -1,0 +1,27 @@
+﻿body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+/* Default green button style, can be overridden by component classes */
+button.default-green {
+  background-color: #10b981;
+  color: white;
+}
+
+button.default-green:hover {
+  background-color: #059669;
+}
